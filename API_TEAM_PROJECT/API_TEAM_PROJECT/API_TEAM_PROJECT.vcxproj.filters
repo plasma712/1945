@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{cee4dcd7-df56-4532-afe9-78da2c029ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{852d520d-d83e-4351-936c-e69f1e72ab9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{f6aeec49-221e-452c-8709-aac4301cec7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{9af9ef25-2cfe-43a7-9272-9a7d28a7288f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{5bc2e0bd-17fe-4e2c-93d7-57f895c3e24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Scene">
+      <UniqueIdentifier>{9b972268-f1f3-4d50-a647-7cbef9dc712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Logo">
+      <UniqueIdentifier>{b277f6cb-7849-4578-a5ba-8db67a9f6ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.Stage1">
+      <UniqueIdentifier>{52e5c717-71d7-439a-a524-7abb06803f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{b16a365d-58cf-48ec-8eae-df1d0ce5b0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.AbstractFactory">
+      <UniqueIdentifier>{4ccba22c-ab18-41ad-aa99-d9f2485c2a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\01.ResourceManager">
+      <UniqueIdentifier>{86d4110b-ec0f-488d-bf2e-727f6538b447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.CollisionManager">
+      <UniqueIdentifier>{e397ddb0-bf3d-4ae3-8851-5163dbaa2cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\03.KeyManager">
+      <UniqueIdentifier>{c97f574f-95fd-42d9-ac15-4be133f1606d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.EffectManager">
+      <UniqueIdentifier>{2bd6a4ec-00b6-43c0-a88e-9d2a73abf53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.GameObject">
+      <UniqueIdentifier>{fabba916-8c5a-4171-a9ee-9a067ac7afd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Player">
+      <UniqueIdentifier>{17854ec8-ecdc-4a8d-bd86-5def7af0ad5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Bullet">
+      <UniqueIdentifier>{f0e8f81b-a929-4b96-a64e-a6f7fb6b07e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Monster">
+      <UniqueIdentifier>{36d9469a-73ab-4873-a14f-499267a1b4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Effect">
+      <UniqueIdentifier>{8f906143-b7d9-4e8b-a626-3e8e080cc35e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.UI">
+      <UniqueIdentifier>{92977503-d285-4c30-9f58-a904a17b25ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Monster\00.Monster">
+      <UniqueIdentifier>{01632fe7-d530-42e5-ad42-72325cf2a115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Monster\01.LinearMonster">
+      <UniqueIdentifier>{0d3b4f6a-cbfe-4611-a1aa-4b7e286ac289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Monster\02.ZigzagMonster">
+      <UniqueIdentifier>{6abda4cd-c5a5-4d96-aa35-daae6538fed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Monster\03.RotateMonster">
+      <UniqueIdentifier>{a07d9dae-6165-4dc5-9b0b-ac1dc8886ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.SoundManager">
+      <UniqueIdentifier>{996570a6-85d9-46e6-ae5b-8143a61fc91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\06.Helper">
+      <UniqueIdentifier>{db572d8e-adb0-4fe4-9e6d-89821ba732f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Monster\99.BossMonster">
+      <UniqueIdentifier>{3d352257-192b-4e35-bf0c-bac56ff9f3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\07.Item">
+      <UniqueIdentifier>{4ccb170b-734b-42a5-8c47-65a162d8b163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Monster\04.NamedMonster">
+      <UniqueIdentifier>{a5833c60-5ec8-49f8-8b73-c5f26f7fac69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\03.Ending">
+      <UniqueIdentifier>{d84e11a1-7b3f-4372-8cf0-904ea213388c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\08.Bomb">
+      <UniqueIdentifier>{30357673-eb9b-4bb6-b49e-62de6063f39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\09.BombAirplane">
+      <UniqueIdentifier>{bca64395-7864-4e2d-b190-134dc58e3d7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API_TEAM_PROJECT.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="extern.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01.Scene\00.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>01.Scene\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1Scene.h">
+      <Filter>01.Scene\02.Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02.GameObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>02.GameObject\02.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>97.Manager\00.AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>97.Manager\01.ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>97.Manager\02.CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>97.Manager\03.KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>97.Manager\04.EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>02.GameObject\04.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>02.GameObject\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>02.GameObject\00.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>02.GameObject\03.Monster\00.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearMonster.h">
+      <Filter>02.GameObject\03.Monster\01.LinearMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="ZigzagMonster.h">
+      <Filter>02.GameObject\03.Monster\02.ZigzagMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>97.Manager\05.SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>02.GameObject\06.Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateMonster.h">
+      <Filter>02.GameObject\03.Monster\03.RotateMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonster.h">
+      <Filter>02.GameObject\03.Monster\99.BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>02.GameObject\07.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedMonster.h">
+      <Filter>02.GameObject\03.Monster\04.NamedMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>01.Scene\03.Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BombAirplane.h">
+      <Filter>02.GameObject\09.BombAirplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>02.GameObject\08.Bomb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="API_TEAM_PROJECT.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01.Scene\00.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>01.Scene\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1Scene.cpp">
+      <Filter>01.Scene\02.Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02.GameObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>02.GameObject\02.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>97.Manager\01.ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>97.Manager\02.CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>97.Manager\03.KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>97.Manager\04.EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>02.GameObject\04.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>02.GameObject\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>02.GameObject\00.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>02.GameObject\03.Monster\00.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearMonster.cpp">
+      <Filter>02.GameObject\03.Monster\01.LinearMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigzagMonster.cpp">
+      <Filter>02.GameObject\03.Monster\02.ZigzagMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>97.Manager\05.SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>02.GameObject\06.Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateMonster.cpp">
+      <Filter>02.GameObject\03.Monster\03.RotateMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonster.cpp">
+      <Filter>02.GameObject\03.Monster\99.BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>02.GameObject\07.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedMonster.cpp">
+      <Filter>02.GameObject\03.Monster\04.NamedMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>01.Scene\03.Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="BombAirplane.cpp">
+      <Filter>02.GameObject\09.BombAirplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>02.GameObject\08.Bomb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="API_TEAM_PROJECT.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="API_TEAM_PROJECT.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
